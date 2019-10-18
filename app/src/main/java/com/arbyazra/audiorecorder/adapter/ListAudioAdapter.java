@@ -28,7 +28,6 @@ public class ListAudioAdapter extends RecyclerView.Adapter<ListAudioAdapter.View
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        // each data item is just a string in this case
         public TextView textView,onCreated;
         public ImageButton btn_play,btn_stop;
         public ViewHolder(View v) {
